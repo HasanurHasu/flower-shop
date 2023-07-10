@@ -21,6 +21,9 @@
     font-size: 33px;
     font-weight: 800;
 }
+.red-text{
+    color: #E55473;
+}
 
 /* banner section style  */
 
@@ -119,4 +122,42 @@
 .group-box{
     text-align: center;
     padding: 75px 0px;
+}
+
+/* offer section style start here  */
+.offer-container{
+    margin: 120px 0px;
+    background-color: #E554730D;
+    padding: 50px 100px;
+}
+.offer-box-container{
+    padding: 0px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-contain{
+
+    padding-right: 100px;
+    text-align: center;
+}
+
+.hot{
+    font-size: 33px;
+    font-weight: 800;
+}
+
+.offer-description{
+    padding: 10px 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.offer-img{
+    width: 240px;
 }
