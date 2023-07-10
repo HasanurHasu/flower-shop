@@ -54,9 +54,10 @@
 
 /* product style start here  */
 
-.product-container{
+.product-container {
     margin: 24px 200px 0px;
 }
+
 .product-description {
     width: 35%;
     margin: 0px auto;
@@ -84,19 +85,38 @@
     align-items: center;
     border-radius: 300px 300px 0px 0px;
 }
-.box1{
+
+.box1 {
     background-color: #A7216226;
 }
-.box2{
+
+.box2 {
     background-color: #0597A026;
 }
-.box3{
+
+.box3 {
     background-color: #477D1126;
 }
-.product-tittle{
+
+.product-tittle {
     display: flex;
     justify-content: space-around;
 }
-.product-tittle > h3{
+
+.product-tittle>h3 {
     margin-top: 20px;
+}
+
+/* gropup section style here  */
+
+.group{
+    margin: 130px 200px;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-around;
+    background-color: #2727270D;
+}
+.group-box{
+    text-align: center;
+    padding: 75px 0px;
 }
