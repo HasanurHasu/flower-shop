@@ -110,7 +110,7 @@ nav{
 .product-box-container {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: stretch;
     gap: 20px;
 }
@@ -158,6 +158,7 @@ nav{
 }
 
 .group-box {
+    color: #272727CC;
     text-align: center;
     padding: 75px 0px;
 }
