@@ -26,10 +26,44 @@
     color: #E55473;
 }
 
+/* nav style  */
+
+header{
+    background-color: #E554731A;
+}
+
+nav{
+    padding: 10px 200px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text{
+    color: #272727;
+    font-size: 35px;
+}
+
+.menu-item{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.item{
+    padding-right: 30px;
+
+}
+
+.item a{
+    color: #272727;
+    font-size: 20px;
+    text-decoration: none;
+}
+
 /* banner section style  */
 
 .banner-container {
-    background-color: #E554731A;
+    
     padding: 50px 200px 0;
     display: flex;
     justify-content: space-between;
