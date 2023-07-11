@@ -13,6 +13,7 @@
     font-size: 15px;
     font-weight: 700;
     color: #FFF;
+    cursor: pointer;
 }
 
 .tittle {
@@ -246,6 +247,7 @@ nav {
     background: #E55473;
     font-weight: 700;
     color: #FFF;
+    cursor: pointer;
 }
 
 .subscription-tittle {
