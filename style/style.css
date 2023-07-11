@@ -13,7 +13,6 @@
     font-size: 15px;
     font-weight: 700;
     color: #FFF;
-    cursor: pointer;
 }
 
 .tittle {
@@ -29,33 +28,34 @@
 
 /* nav style  */
 
-header{
+header {
     background-color: #E554731A;
 }
 
-nav{
+nav {
     padding: 10px 200px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo-text{
+.logo-text {
     color: #272727;
     font-size: 35px;
 }
 
-.menu-item{
+.menu-item {
     display: flex;
     align-items: center;
     list-style: none;
 }
-.item{
+
+.item {
     padding-right: 30px;
 
 }
 
-.item a{
+.item a {
     color: #272727;
     font-size: 20px;
     text-decoration: none;
@@ -64,7 +64,7 @@ nav{
 /* banner section style  */
 
 .banner-container {
-    
+
     padding: 50px 200px 0;
     display: flex;
     justify-content: space-between;
@@ -108,21 +108,19 @@ nav{
 }
 
 .product-box-container {
-
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: stretch;
     gap: 20px;
 }
 
 .product-img {
-    width: 150px;
-    padding: 110px 76px 0;
+    width: 200px;
+    padding: 80px 50px 0;
 }
 
 .product-box {
     display: flex;
-    align-items: center;
     border-radius: 300px 300px 0px 0px;
 }
 
@@ -132,22 +130,25 @@ nav{
 
 .box2 {
     background-color: #0597A026;
+    align-items: center;
 }
 
 .box3 {
     background-color: #477D1126;
 }
 
+
 .product-tittle {
     display: flex;
     justify-content: space-around;
 }
 
-.product-tittle>h3 {
+.product-tittle > h3 {
     margin-top: 20px;
+    text-decoration: underline;
 }
 
-/* gropup section style here  */
+/* Group section style here  */
 
 .group {
     margin: 130px 200px;
@@ -158,12 +159,12 @@ nav{
 }
 
 .group-box {
-    color: #272727CC;
     text-align: center;
     padding: 75px 0px;
 }
 
 /* offer section style start here  */
+
 .offer-container {
     margin: 120px 0px;
     background-color: #E554730D;
@@ -195,7 +196,6 @@ nav{
     line-height: 30px;
 }
 
-
 .offer-img {
     margin-left: 100px;
     width: 240px;
@@ -219,7 +219,6 @@ nav{
 }
 
 /* subscription style start here  */
-
 
 .subscription-container {
     margin: 120px 200px;
@@ -247,7 +246,6 @@ nav{
     background: #E55473;
     font-weight: 700;
     color: #FFF;
-    cursor: pointer;
 }
 
 .subscription-tittle {
